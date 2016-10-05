@@ -21,7 +21,7 @@ public class Test {
         String str = "asdfghds";
         String subStr = subString.findSubString(str);
         boolean result = str.contains(subStr);
-        assertEquals("Length doesn't contain substring",
+        assertEquals("String doesn't contain substring",
                 true, result);
     }
 }
